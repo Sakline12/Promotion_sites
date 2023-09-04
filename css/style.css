@@ -1,0 +1,439 @@
+header {
+  background-color: #0671b8;
+}
+
+.navbar-toggler {
+  border: none;
+  background-color: transparent;
+}
+
+.content-container {
+  padding-top: 70px;
+  /* Adjust the padding value as needed */
+}
+
+.navbar-nav .nav-link {
+  color: black;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 0px 10px 0px 10px;
+}
+
+.navbar {
+  background-color: #0671b8;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(253, 253, 253);
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(210, 222, 240);
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+}
+
+.logo_footer {
+  max-width: 165px;
+  height: auto;
+}
+
+.main-banner2 {
+  position: relative;
+  background: url("../assets/slider-3.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  margin-top: 3.7rem;
+}
+
+.dark-overlay {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(22, 22, 22, 0.8), rgba(40, 39, 39, 0.8));
+}
+
+.banner-content {
+  text-align: center;
+}
+
+.content-padding {
+  padding: 143px 0px;
+}
+
+.banner-content h1 {
+  font-size: 60px;
+  text-transform: none;
+  line-height: 60px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.banner-content h1 span {
+  text-decoration: underline;
+}
+
+.banner-content p {
+  width: 70%;
+  margin: 15px auto 30px;
+}
+
+.white h1,
+.white h2,
+.white h3,
+.white p {
+  color: #fff;
+}
+
+#top-features {
+  padding-bottom: 0px;
+}
+
+.top-feature-bg {
+  width: 100%;
+  background: #fff;
+  float: left;
+  margin-top: -140px;
+  position: relative;
+  padding: 30px;
+}
+
+
+.feature-box {
+  position: relative;
+  padding-left: 80px;
+  background: #eee;
+  padding: 30px 30px 20px 80px;
+  border-radius: 0.5rem;
+}
+
+.feature-icon {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 32px;
+  color: #333;
+}
+
+.feature-box p {
+  color: #999;
+}
+
+/* #about {} */
+
+.about-list {
+  margin-top: 30px;
+}
+
+.about-list li .about-icon {
+  color: #00415a;
+  position: absolute;
+  left: 30px;
+  top: 0px;
+}
+
+.about-list li {
+  font-size: 20px;
+  margin-bottom: 25px;
+  position: relative;
+  padding-left: 70px;
+  list-style: none;
+}
+
+.about-list li:last-child {
+  margin-bottom: 0px;
+}
+
+
+
+.about-list p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about-img {
+  margin-bottom: 15px;
+}
+
+.about-img img {
+  border-radius: 15px;
+  border: 5px solid#eee;
+}
+
+.read-more {
+  font-size: 14px;
+  color: #00415a;
+  text-decoration: none;
+}
+
+.read-more i {
+  margin-left: 5px;
+}
+
+
+.about-feature h2 {
+  margin-bottom: 10px;
+}
+
+.about-feature ul {
+  margin-top: 30px;
+}
+
+.about-feature ul li {
+  margin-bottom: 20px;
+}
+
+.about-feature ul li p {
+  padding-right: 60px;
+  margin-top: 5px;
+}
+
+.about-feature ul li h3 {
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+
+.about-feature ul li h3 span {
+  margin-right: 20px;
+  color: #000;
+  width: 30px;
+}
+
+.about-feature ul li:last-child {
+  margin-bottom: 40px;
+}
+
+
+
+
+.about-btn {
+  margin-top: 40px;
+  background: #f8f5e7;
+  padding: 40px;
+}
+
+/* .about-btn h3, */
+/* .about-btn p {
+    color: #dfe3ee !important;
+}  */
+
+/* .about-btn .btn {
+    margin-top: 10px;
+} */
+.btn {
+  font: 600 10.5px/1;
+  display: inline-block;
+  padding: 14px 27px 14px 27px;
+  padding: 14px 48px 14px 48px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+
+.pricing-box {
+  text-align: center;
+  padding: 70px 15px 70px;
+  border: 1px solid#eee;
+  -webkit-box-shadow: 0px 20px 35px rgba(0, 0, 0, .1);
+  box-shadow: 0px 20px 35px rgba(0, 0, 0, .1);
+  -webkit-transition: all 900ms ease;
+  -o-transition: all 900ms ease;
+  transition: all 900ms ease;
+  background: #fff;
+}
+
+.pricing-box h4 {
+  margin-bottom: 5px;
+}
+
+.pricing-box span {
+  font-size: 14px;
+}
+
+.price {
+  display: block;
+  font-size: 50px;
+  line-height: 70px;
+  color: #005c97;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* .price span {
+    font-weight: 400;
+} */
+
+.pricing-box ul li {
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  color: #999999;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.pricing-box ul {
+  margin-bottom: 40px;
+}
+
+.pricing-box ul li span {
+  color: #111;
+}
+
+.pricing-box .btn:hover {
+  color: #009bd6;
+}
+
+
+.testimonial-item {
+  padding: 30px;
+  text-align: center;
+}
+
+.testimonial-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.testimonial-item .testimonial-content {
+  margin-bottom: 30px;
+}
+
+.testimonial-item .testimonial-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.testimonial-item .testimonial-designation {
+  font-style: italic;
+  color: #888;
+}
+
+/* Custom Styles for Dot Indicators */
+.carousel-indicators li {
+  background-color: #00415a;
+  /* border-radius: 50%; */
+  width: 12px;
+  height: 30px;
+
+}
+
+.carousel-indicators .active {
+  background-color: #00415a;
+}
+
+.footer {
+  background: rgb(223, 232, 238);
+  background: linear-gradient(90deg, rgba(223, 232, 238, 1) 0%, rgba(221, 240, 240, 1) 100%);
+}
+
+@media (max-width: 767.98px) {
+
+  .top-0,
+  .start-0,
+  .translate-middle {
+    display: contents;
+  }
+
+}
+
+.footer a {
+  color: #00719c;
+}
+
+.footer a:hover {
+  color: #009bd6;
+}
+
+/* .swipe {
+    width: 18rem;
+  }
+  
+  .carousel-item.active,
+  .carousel-item-next,
+  .carousel-item-prev {
+    display: flex;
+  } */
+/* @media (max-width: 767px) {
+    .carousel-inner .carousel-item .col-md-4 {
+      width: 33.33%;
+      float: left;
+    }
+  } */
+
+/* style="position: absolute; z-index: 1; " */
+
+.up_button {
+  background-color: #0671b8;
+  color: whitesmoke;
+}
+
+.price_btn{
+  background-color: #0671b8;
+  color: white;
+}
+
+.price_btn:hover{
+  background-color: #025ce2;
+  color: white;
+}
+
+.snd_button {
+  background-color: #3b5998;
+  color: whitesmoke;
+}
+
+
+
+.float {
+  opacity: 0.7;
+  position: fixed;
+  width: 120px;
+  height: 35px;
+  bottom: 330px;
+  right: 0px;
+  background-color: #fd583f;
+  color: #fafa01;
+  border-radius: 50px 0px 0px 50px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 5px 5px 3px #999;
+}
+
+.float:hover {
+  opacity: 1;
+}
+
+.my-float {
+  margin-top: 22px;
+}
+
+.price-btn{
+  background-color: red;
+}
+
+.arrow-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.arrow-list p::before {
+  content: "➔"; /* You can replace this with the arrow character you prefer */
+  margin-right: 10px;
+}
+
+.device img:hover{
+  transform: scale(1.1); 
+  transition: 1000ms;
+}

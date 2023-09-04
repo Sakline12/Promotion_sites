@@ -1,0 +1,100 @@
+.main-banner {
+    position: relative;
+    background: url("../assets/privacy-policy-banner.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+
+
+.banner-content {
+    text-align: center;
+}
+
+.banner-content h1 {
+    font-size: 60px;
+    text-transform: none;
+    line-height: 60px;
+    font-family: "Poppins", sans-serif;
+}
+
+.banner-content h1 span {
+    text-decoration: underline;
+}
+
+.banner-content p {
+    width: 70%;
+    margin: 15px auto 30px;
+}
+
+.banner-content-img {
+    padding-top: 120px;
+}
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+    transform: translateX(0);
+}
+
+.custom-img {
+    height: 300px;
+    /* Adjust the height value as desired */
+}
+
+.carousel-indicators {
+    bottom: -40px;
+}
+
+.float {
+    opacity: 0.7;
+    position: fixed;
+    width: 120px;
+    height: 35px;
+    bottom: 330px;
+    right: 0px;
+    background-color: #fd583f;
+    color: #fafa01;
+    border-radius: 50px 0px 0px 50px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 5px 5px 3px #999;
+  }
+
+.float:hover {
+    opacity: 1;
+}
+  
+  .my-float {
+    margin-top: 22px;
+  }

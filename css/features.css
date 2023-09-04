@@ -1,0 +1,121 @@
+.main-banner {
+    position: relative;
+    background: url("../assets/admin_banner.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.dark-overlay {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(22, 22, 22, 0.8), rgba(40, 39, 39, 0.8));
+}
+
+.content-padding {
+    padding: 66px 0px;
+}
+
+.banneer-content {
+    text-align: center;
+}
+
+.banneer-content h1 {
+    text-transform: none;
+    line-height: 20px;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    padding-top: 66px;
+}
+
+.banneer-content h1 span {
+    text-decoration: underline;
+}
+
+.banneer-content p {
+    width: 70%;
+    margin: 15px auto 30px;
+}
+
+.banneer-content-img {
+    padding-top: 120px;
+}
+.dashboard img {
+    width: 100%;
+    height: 100%;
+}
+
+.feature_header{
+    color: #1e3e53;
+}
+
+.fa-check{
+    margin-top: 5px;
+}
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+    transform: translateX(0);
+}
+
+
+
+.carousel-indicators {
+    bottom: -40px;
+}
+
+.float {
+    opacity: 0.7;
+    position: fixed;
+    width: 120px;
+    height: 35px;
+    bottom: 330px;
+    right: 0px;
+    background-color: #fd583f;
+    color: #fafa01;
+    border-radius: 50px 0px 0px 50px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 5px 5px 3px #999;
+}
+
+.float:hover {
+    opacity: 1;
+}
+
+.my-float {
+    margin-top: 22px;
+}
+
